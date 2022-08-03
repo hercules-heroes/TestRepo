@@ -1,2 +1,1 @@
-import django
-
+print('HI world')
