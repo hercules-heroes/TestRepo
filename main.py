@@ -20,5 +20,5 @@ for i in range(5):
     print()
 
 
-b : str = 'text'
+b: str = 'text'
 code = 0
