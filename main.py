@@ -5,3 +5,4 @@ print('ne sergey')
 
 
 # Поле, для создания конфликта
+print('ne konfliktyi')
