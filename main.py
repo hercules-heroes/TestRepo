@@ -21,4 +21,4 @@ for i in range(5):
 
 
 b : str = 'text'
-
+code = 0
