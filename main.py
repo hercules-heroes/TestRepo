@@ -5,6 +5,9 @@
 def func():
     pass
 
+class cat:
+    pass
+
 # Поле, для создания конфликта
 a = 1 + 5
 
