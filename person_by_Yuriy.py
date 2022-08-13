@@ -10,6 +10,14 @@ class Person:
         self.gender = gender
         self.city = city
 
+    @property
+    def person_info(self):
+        return (
+            f'Иия {self.last_name} {self.first_name}\n'
+            f'Пол: {self.gender}\n'
+            f'Город: {self.city}'
+        )
+
 
 yuriy = Person('Юрий', 'Растегаев', 'муж.', 'г.Одинцово МО')
-# print(yuriy.__dict__)
+# print(yuriy.person_info)
