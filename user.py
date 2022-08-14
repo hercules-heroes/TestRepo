@@ -14,8 +14,3 @@ class Person:
         message = (f"Фамилия: {self.surname}\nИмя: {self.name}\n"
                    f"Пол: {self.sex}\nГород: {self.city}")
         return message
-
-
-user = Person("Pavel", "Sysolyatin", "Male", "Kirov")
-info = user.display_info()
-print(info)
